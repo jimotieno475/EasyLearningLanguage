@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "about": "O nas",
+    "offer": "Oferta",
+    "gallery": "Galeria",
+    "contact": "Kontakt"
+  },
+"home": {
+  "title": "Witamy w Easy Learning Language",
+  "subtitle": "Ucz się języków łatwo i skutecznie.",
+  "infoTitle": "Ucz się angielskiego z Easy Learning Language",
+  "infoText": "Język angielski jest powszechnie uznawany za język międzynarodowy używany przez ludzi na całym świecie. Znajomość angielskiego umożliwia komunikację w niemal każdym zakątku świata i jest często wymagana w wielu zawodach. W Easy Learning Language każdy uczeń otrzymuje indywidualną uwagę, co pozwala na szybsze postępy. Zajęcia wypełnione są ćwiczeniami z czytania, słuchania i pisania, co pozwala uczniom szybko opanować zarówno mowę, jak i pisownię. Podczas zajęć odbywa się wiele rozmów w języku angielskim, co pozwala uczniom oswoić się z wymową i pokonać barierę mówienia. Gwarantujemy atrakcyjne ceny kursów.",
+
+  "courses": [
+  {
+    "title": "Nauka języka angielskiego",
+    "text": "Znajomość języka angielskiego jest bardzo przydatna dla osób w każdym wieku. Rozpocznij naukę języka jak najszybciej.",
+    "cta": "Czytaj więcej"
+  },
+  {
+    "title": "Korepetycje z angielskiego",
+    "text": "W szkole językowej Easy Learning Language udzielamy kompleksowych korepetycji. Pomagamy osobą o różnym stopniu zaawansowania.",
+    "cta": "Czytaj więcej"
+  },
+  {
+    "title": "Przygotowanie do egzaminów",
+    "text": "Dla wielu uczniów egzamin językowy na koniec 8 klasy lub maturalny jest bardzo stresującym wyzwaniem. Pomagamy przygotować się do tych egzaminów.",
+    "cta": "Czytaj więcej"
+  },
+  {
+    "title": "Wakacyjne kursy językowe",
+    "text": "W czasie wakacji można, nie tylko wypoczywać nic nie robiąc, ale również poszerzyć swoje kompetencje językowe przychodząc do nas na kurs języka angielskiego.",
+    "cta": "Czytaj więcej"
+  },
+  {
+    "title": "Kursy języka biznesowego",
+    "text": "Każda branża ma swój specyficzny język, z którego korzystamy podczas rozmów biznesowych. Prowadzimy kursy języka angielskiego z naciskiem na słownictwo przydatne w danej branży.",
+    "cta": "Czytaj więcej"
+  },
+  {
+    "title": "Kontakt",
+    "text": "Wszystkie osoby zainteresowane naszą ofertą oraz chcące uzyskać dodatkowe informacje dotyczące Easy Learning Language serdecznie zapraszamy do kontaktu drogą telefoniczną lub mailową.",
+    "cta": "Kontakt"
+  }
+]
+
+}
+
+,
+  "cta": {
+    "enroll": "Zapisz się",
+    "readMore": "Kontakt"
+  },
+"about": {
+  "title": "O nas",
+  "text": "Jesteśmy szkołą językową oferującą przyjazne, nowoczesne i skuteczne metody nauczania dla uczniów w każdym wieku. Prowadzi nas Beatrice Ajwang, która kładzie nacisk na indywidualny rozwój ucznia.",
+  "extended": "Easy Learning Language, szkoła językowa prowadzona przez Beatrice Ajwang, znajduje się w Kamionkach, niedaleko Poznania. Skupiamy się na nauczaniu języka angielskiego uczniów w każdym wieku i na różnych poziomach zaawansowania. Oferujemy zajęcia od poziomu A1 do bardzo zaawansowanego. Nasze duże doświadczenie i wysokie kwalifikacje pozwalają nam gwarantować najwyższą jakość nauczania, a indywidualne podejście do każdego ucznia pozwala maksymalizować wyniki nauki. Nieustannie doskonalimy nasze umiejętności poprzez udział w kursach i warsztatach. Staramy się, aby każdy uczeń otrzymał dokładnie tę wiedzę, której potrzebuje."
+}
+,
+ "offer": {
+  "title": "Nasza Oferta",
+  "description": "Kursy dopasowane do różnych grup wiekowych i poziomów zaawansowania.",
+  "detailedText1": "Znajomość języka angielskiego jest dziś bardzo przydatna. Angielski to język międzynarodowy, umożliwiający komunikację w niemal każdym zakątku świata. Coraz częściej jest wymagany w różnych zawodach, ponieważ komunikacja biznesowa odbywa się po angielsku.",
+  "detailedText2": "W Easy Learning Language dostosowujemy nasze metody nauczania do predyspozycji uczniów, dzięki czemu osiągają oni doskonałe wyniki w stosunkowo krótkim czasie.",
+  "classTopicsTitle": "Zajęcia obejmują tematy takie jak:",
+  "classTopics": ["Mówienie po angielsku", "Czytanie po angielsku", "Pisanie po angielsku"],
+  "speakingBarrier": "Wiele osób, mimo dobrych umiejętności językowych, boi się komunikować w obcym języku. Dzięki licznym rozmowom prowadzonym podczas zajęć można szybko przełamać tę barierę.",
+  "trainingTitle": "W ramach naszej oferty nauczania języka angielskiego przygotowaliśmy:",
+  "trainings": [
+    "Szkolenia językowe z angielskiego",
+    "Kursy języka angielskiego dla początkujących",
+    "Zaawansowane kursy języka angielskiego",
+    "Wakacyjne kursy językowe",
+    "Korepetycje z języka angielskiego",
+    "Przygotowanie do egzaminu ósmoklasisty i maturalnego z języka angielskiego",
+    "Kursy języka biznesowego"
+  ],
+  "businessCourses": "Na naszych kursach języka biznesowego szczególny nacisk kładziemy na naukę słownictwa przydatnego w danej branży.",
+  "contactInfo": "W przypadku pytań dotyczących naszych usług prosimy o kontakt telefoniczny lub mailowy.",
+  "printContract": "Wydrukuj umowę",
+  "learnMore": "Dowiedz się więcej o tym kursie, kontaktując się z nami.",
+  "courses": [
+    "Kursy angielskiego",
+    "Przygotowanie do egzaminów",
+    "Angielski biznesowy",
+    "Kursy wakacyjne"
+  ]
+}
+,
+  "gallery": {
+    "title": "Galeria",
+    "text": "Zobacz chwile z naszych zajęć i wydarzeń."
+  },
+"contact": {
+  "title": "Kontakt",
+  "text": "Skontaktuj się z nami telefonicznie lub mailowo, aby uzyskać więcej informacji.",
+  "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+  "phone": "+48 883 422 005",
+  "email": "info@easylearninglanguage.com",
+  "hours": "Pon–Pt: 9:00 – 18:00",
+  "labels": {
+    "email": "Email",
+    "phone": "Telefon",
+    "address": "Adres",
+    "hours": "Godziny otwarcia"
+  },
+  "formTitle": "Formularz zgłoszeniowy",
+  "dataNotice": "Informuję, że jestem administratorem Państwa danych osobowych, które będą wykorzystane do wystawienia faktury, a wysłanie informacji drogą mailową jest jednoznaczne z wyrażeniem przez Państwa zgody na ich przetwarzanie w powyższych celach.",
+  "form": {
+    "name": "Imię i nazwisko*",
+    "mail": "Email",
+    "phone": "Telefon*",
+    "subject": "Temat (Kurs)",
+    "message": "Wiadomość",
+    "send": "Wyślij"
+  }
+}
+,
+"application": {
+  "title": "Formularz zgłoszeniowy",
+  "notice": "Informuję, że jestem administratorem Państwa danych osobowych, które będą wykorzystane do wystawienia faktury, a wysłanie informacji drogą mailową jest jednoznaczne z wyrażeniem zgody na ich przetwarzanie w powyższych celach.",
+  "form": {
+    "name": "Imię i nazwisko",
+    "email": "Email",
+    "phone": "Telefon",
+    "subject": "Temat / Kurs",
+    "message": "Wiadomość",
+    "send": "Wyślij zgłoszenie"
+  }
+}
+
+
+}

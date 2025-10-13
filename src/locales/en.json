@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "offer": "Offer",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+"home": {
+  "title": "Welcome to Easy Learning Language",
+  "subtitle": "Learn languages easily and effectively.",
+  "infoTitle": "Learn English with Easy Learning Language",
+  "infoText": "English is widely recognized as an international language used by people around the world. Knowledge of English allows for communication in almost every corner of the globe and is often required in a wide variety of jobs. At Easy Learning Language, each student receives individualized attention, allowing for faster progress. Classes are filled with exercises in reading, listening, and writing, allowing students to quickly master both spoken and written English. During classes, numerous conversations in English are also held, allowing students to familiarize themselves with pronunciation and overcome the speaking barrier. We guarantee attractive course prices.",
+  "courses": [
+  {
+    "title": "English Language Learning",
+    "text": "Knowledge of English is very useful for people of all ages. Start learning as soon as possible.",
+    "cta": "Read more"
+  },
+  {
+    "title": "English Tutoring",
+    "text": "At Easy Learning Language, we provide comprehensive tutoring for learners of all proficiency levels.",
+    "cta": "Read more"
+  },
+  {
+    "title": "Exam Preparation",
+    "text": "For many students, language exams can be stressful. We help you prepare for 8th-grade and high school exams.",
+    "cta": "Read more"
+  },
+  {
+    "title": "Holiday English Courses",
+    "text": "During holidays, you can relax and also expand your language skills by joining our English courses.",
+    "cta": "Read more"
+  },
+  {
+    "title": "Business English Courses",
+    "text": "Each industry has its own specific language. Our business English courses focus on vocabulary relevant to your field.",
+    "cta": "Read more"
+  },
+  {
+    "title": "Contact",
+    "text": "All those interested in our offer or who want to get more information about Easy Learning Language are warmly welcome to contact us via phone or email.",
+    "cta": "Contact"
+  }
+]
+
+}
+,
+  "cta": {
+    "enroll": "Sign up",
+    "readMore": "Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "We are a language school offering friendly, modern, and effective teaching methods for students of all ages. Our teacher, Beatrice Ajwang, focuses on individual progress and uses up-to-date teaching techniques.",
+    "extended": "Easy Learning Language, a foreign language school run by Beatrice Ajwang, is located in Kamionki, near Poznań. Our focus is on teaching English to students of all ages and at various levels. We offer classes from A1 to very advanced levels. Our extensive experience and high qualifications allow us to guarantee the highest quality of teaching, and our individual approach to each student allows us to maximize learning outcomes. We continually improve our skills by participating in courses and workshops. We strive to ensure that every student receives the exact knowledge they need."
+  },
+  "offer": {
+  "title": "Our Offer",
+  "description": "Courses adapted to different ages and levels.",
+  "detailedText1": "Knowledge of English is very useful these days. English is an international language, allowing communication in almost every corner of the planet. It is increasingly required in various professions, as international business communication is conducted in English.",
+  "detailedText2": "At Easy Learning Language, we tailor our teaching methods to the learners' predispositions, ensuring that students achieve excellent learning results in a relatively short time.",
+  "classTopicsTitle": "Classes cover topics such as:",
+  "classTopics": ["Speaking in English", "Reading in English", "Writing in English"],
+  "speakingBarrier": "Many people, despite their good language skills, are afraid to communicate in a foreign language. Thanks to the numerous conversations held during classes, it's possible to quickly overcome this barrier.",
+  "trainingTitle": "As part of our English language teaching offer, we have prepared:",
+  "trainings": [
+    "English language training",
+    "English courses for beginners",
+    "Advanced English courses",
+    "Summer language courses",
+    "English tutoring",
+    "Preparation for the eighth-grade and secondary school leaving examinations in English",
+    "Business language courses"
+  ],
+  "businessCourses": "In our business language courses, we place particular emphasis on learning vocabulary relevant to your specific industry.",
+  "contactInfo": "If you have any questions about our services, please contact us by phone or email.",
+  "printContract": "Print the contract",
+  "learnMore": "Learn more about this course by contacting us.",
+  "courses": [
+    "English Courses",
+    "Exam Preparation",
+    "Business English",
+    "Holiday Courses"
+  ]
+}
+,
+  "gallery": {
+    "title": "Gallery",
+    "text": "Explore moments from our classes and events."
+  },
+"contact": {
+  "title": "Contact Us",
+  "text": "Reach out via phone or email for details.",
+  "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+  "phone": "+48 883 422 005",
+  "email": "info@easylearninglanguage.com",
+  "hours": "Mon–Fri: 9:00 – 18:00",
+  "labels": {
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Hours"
+  },
+  "formTitle": "Application Form",
+  "dataNotice": "I hereby inform you that I am the administrator of your personal data, which will be used to issue an invoice, and sending information by email is equivalent to your consent for processing your data for the above purposes.",
+  "form": {
+    "name": "Full Name*",
+    "mail": "Email",
+    "phone": "Phone*",
+    "subject": "Subject (Course)",
+    "message": "Message",
+    "send": "Send"
+  }
+}
+
+,
+  "pl": {
+    "nav": {
+      "home": "Strona Główna",
+      "about": "O nas",
+      "offer": "Oferta",
+      "gallery": "Galeria",
+      "contact": "Kontakt"
+    },
+    "home": {
+      "title": "Witamy w Easy Learning Language",
+      "subtitle": "Ucz się języków łatwo i skutecznie.",
+      "description": "Język angielski jest powszechnie uznawany za język międzynarodowy używany przez ludzi na całym świecie. Znajomość angielskiego pozwala na komunikację w niemal każdym zakątku świata i jest często wymagana w wielu zawodach. W Easy Learning Language każdy uczeń otrzymuje indywidualne wsparcie, co pozwala na szybsze postępy. Zajęcia są wypełnione ćwiczeniami z czytania, słuchania i pisania, dzięki czemu uczniowie szybko opanowują zarówno mowę, jak i pismo w języku angielskim. Podczas zajęć odbywa się wiele rozmów po angielsku, co pozwala uczniom oswoić się z wymową i przełamać barierę mówienia. Gwarantujemy atrakcyjne ceny kursów."
+    },
+    "cta": {
+      "enroll": "Zapisz się",
+      "readMore": "Kontakt"
+    },
+    "about": {
+      "title": "O nas",
+      "text": "Jesteśmy szkołą językową oferującą przyjazne, nowoczesne i skuteczne metody nauczania dla uczniów w każdym wieku. Nasza nauczycielka, Beatrice Ajwang, kładzie nacisk na indywidualny rozwój ucznia i wykorzystuje nowoczesne techniki nauczania."
+    },
+    "offer": {
+      "title": "Nasza oferta",
+      "description": "Kursy dopasowane do wieku i poziomu zaawansowania.",
+      "courses": [
+        "Kursy angielskiego",
+        "Przygotowanie do egzaminów",
+        "Angielski biznesowy",
+        "Kursy wakacyjne"
+      ]
+    },
+    "gallery": {
+      "title": "Galeria",
+      "text": "Zobacz chwile z naszych zajęć i wydarzeń."
+    },
+    "contact": {
+      "title": "Skontaktuj się z nami",
+      "text": "Skontaktuj się telefonicznie lub mailowo, aby uzyskać szczegóły.",
+      "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+      "phone": "+48 883 422 005",
+      "email": "info@easylearninglanguage.com",
+      "hours": "Pon–Pt: 9:00 – 18:00",
+      "form": {
+        "name": "Imię",
+        "mail": "Email",
+        "message": "Wiadomość",
+        "send": "Wyślij"
+      }
+    }
+  },
+  "application": {
+  "title": "Application Form",
+  "notice": "I inform you that I am the administrator of your personal data, which will be used to issue an invoice. Sending information by email is equivalent to giving your consent to process the data for the above purposes.",
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Course / Topic",
+   "message": "Message",
+    "send": "Send Application"
+  }
+}
+
+}
