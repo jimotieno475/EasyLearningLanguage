@@ -8,14 +8,14 @@ export default function Footer() {
       {/* Google Map Section */}
 <section className="relative w-full h-80 md:h-96">
   <a
-    href="https://www.google.com/maps/dir/?api=1&destination=Przy+Łowisku+6/1,+62-023+Kamionki,+Poland"
+    href="https://www.google.com/maps/dir/?api=1&destination=Poznańska+117,+62-023+Kamionki,+Poland"
     target="_blank"
     rel="noopener noreferrer"
     className="block w-full h-full"
   >
     <iframe
       title="Easy Learning Language Location"
-      src="https://www.google.com/maps?q=Przy+Łowisku+6/1,+62-023+Kamionki,+Poland&output=embed"
+      src="https://www.google.com/maps?q=Poznańska+117,+62-023+Kamionki,+Poland&output=embed"
       width="100%"
       height="100%"
       allowFullScreen=""
@@ -29,6 +29,7 @@ export default function Footer() {
     </div>
   </a>
 </section>
+
 
       <div className='container mx-auto text-center text-sm'>
         <div>{t.contact.address} • {t.contact.phone} • {t.contact.email}</div>
