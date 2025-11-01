@@ -14,3 +14,5 @@ body { @apply bg-white text-gray-800; }
 .animate-fade-in {
   animation: fade-in 1.2s ease-in-out forwards;
 }
+
+

@@ -8,14 +8,14 @@ export default function Footer() {
       {/* Google Map Section */}
 <section className="relative w-full h-80 md:h-96">
   <a
-    href="https://www.google.com/maps/dir/?api=1&destination=Poznańska+117,+62-023+Kamionki,+Poland"
+    href="https://www.google.com/maps/dir/?api=1&destination=EKO+Kamionki,+ul.+Poznańska+117,+62-023+Kamionki"
     target="_blank"
     rel="noopener noreferrer"
     className="block w-full h-full"
   >
     <iframe
       title="Easy Learning Language Location"
-      src="https://www.google.com/maps?q=Poznańska+117,+62-023+Kamionki,+Poland&output=embed"
+      src="https://www.google.com/maps?q=EKO+Kamionki,+ul.+Poznańska+117,+62-023+Kamionki&output=embed"
       width="100%"
       height="100%"
       allowFullScreen=""

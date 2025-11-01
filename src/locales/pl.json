@@ -7,8 +7,9 @@
     "contact": "Kontakt"
   },
 "home": {
-  "title": "Witamy w Easy Learning Language",
-  "subtitle": "Ucz się języków łatwo i skutecznie.",
+  "title": "Witamy w Easy Learning Language w Kamionkach",
+  "subtitle": "Szkoła, w której uczysz się angielskiego z native speakerem. ",
+  "subsubtitle":"Profesjonalnie, indywidualnie i z widocznymi efektami.",
   "infoTitle": "Ucz się angielskiego z Easy Learning Language",
   "infoText": "Język angielski jest powszechnie uznawany za język międzynarodowy używany przez ludzi na całym świecie. Znajomość angielskiego umożliwia komunikację w niemal każdym zakątku świata i jest często wymagana w wielu zawodach. W Easy Learning Language każdy uczeń otrzymuje indywidualną uwagę, co pozwala na szybsze postępy. Zajęcia wypełnione są ćwiczeniami z czytania, słuchania i pisania, co pozwala uczniom szybko opanować zarówno mowę, jak i pisownię. Podczas zajęć odbywa się wiele rozmów w języku angielskim, co pozwala uczniom oswoić się z wymową i pokonać barierę mówienia. Gwarantujemy atrakcyjne ceny kursów.",
 
@@ -52,41 +53,117 @@
     "enroll": "Zapisz się",
     "readMore": "Kontakt"
   },
-"about": {
-  "title": "O nas",
-  "text": "Jesteśmy szkołą językową oferującą przyjazne, nowoczesne i skuteczne metody nauczania dla uczniów w każdym wieku. Prowadzi nas Beatrice Ajwang, która kładzie nacisk na indywidualny rozwój ucznia.",
-  "extended": "Easy Learning Language, szkoła językowa prowadzona przez Beatrice Ajwang, znajduje się w Kamionkach, niedaleko Poznania. Skupiamy się na nauczaniu języka angielskiego uczniów w każdym wieku i na różnych poziomach zaawansowania. Oferujemy zajęcia od poziomu A1 do bardzo zaawansowanego. Nasze duże doświadczenie i wysokie kwalifikacje pozwalają nam gwarantować najwyższą jakość nauczania, a indywidualne podejście do każdego ucznia pozwala maksymalizować wyniki nauki. Nieustannie doskonalimy nasze umiejętności poprzez udział w kursach i warsztatach. Staramy się, aby każdy uczeń otrzymał dokładnie tę wiedzę, której potrzebuje."
-}
+  "about": {
+    "title": "O nas",
+    "intro": "EASY Learning Language – Twoja szkoła językowa w Kamionkach",
+    "mainText": "Easy Learning Language to nowoczesna szkoła językowa prowadzona przez Beatrice Ajwang, zlokalizowana w Kamionkach, niedaleko Poznania. Uczymy języka angielskiego dzieci, młodzież i dorosłych – od poziomu A1 do zaawansowanego C1.",
+    "mission": {
+      "title": "Nasza misja",
+      "text": "Naszą misją jest tworzenie przyjaznej, inspirującej atmosfery, w której nauka staje się przyjemnością, a efekty są szybko widoczne. Stawiamy na indywidualne podejście, nowoczesne metody nauczania oraz bezpośredni kontakt z native speakerem, co wyróżnia nas spośród innych szkół. Dzięki temu nasi uczniowie rozwijają naturalną płynność językową i pewność w komunikacji."
+    },
+    "guarantee": "Dzięki pasji, doświadczeniu i zaangażowaniu gwarantujemy naukę na najwyższym poziomie – dostosowaną do potrzeb każdego ucznia.",
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Indywidualne podejście",
+        "text": "Dopasowujemy metody nauczania do potrzeb i stylu uczenia się każdego ucznia"
+      },
+      {
+        "icon": "👩‍🏫",
+        "title": "Native Speaker",
+        "text": "Bezpośredni kontakt z doświadczonym native speakerem"
+      },
+      {
+        "icon": "📈",
+        "title": "Szybkie efekty",
+        "text": "Widoczne postępy w krótkim czasie dzięki skutecznym metodom"
+      },
+      {
+        "icon": "🏆",
+        "title": "Doświadczenie",
+        "text": "Wysokie kwalifikacje i ciągłe doskonalenie zawodowe"
+      }
+    ],
+    "whatMakesUsSpecial": "Co nas wyróżnia?",
+    "signUpButton": "Zapisz się na lekcję",
+    "levels": {
+      "title": "Poziomy nauczania",
+      "items": ["Dzieci (od 3 lat)", "Młodzież", "Dorośli", "Poziomy A1-C1", "Konwersacje", "Przygotowanie do egzaminów"]
+    },
+    "cta": {
+      "title": "Rozpocznij swoją przygodę z angielskim!",
+      "text": "Zapisz się na pierwszą lekcję i przekonaj się, jak skutecznie możesz nauczyć się języka angielskiego."
+    }
+  }
+
 ,
  "offer": {
   "title": "Nasza Oferta",
-  "description": "Kursy dopasowane do różnych grup wiekowych i poziomów zaawansowania.",
-  "detailedText1": "Znajomość języka angielskiego jest dziś bardzo przydatna. Angielski to język międzynarodowy, umożliwiający komunikację w niemal każdym zakątku świata. Coraz częściej jest wymagany w różnych zawodach, ponieważ komunikacja biznesowa odbywa się po angielsku.",
-  "detailedText2": "W Easy Learning Language dostosowujemy nasze metody nauczania do predyspozycji uczniów, dzięki czemu osiągają oni doskonałe wyniki w stosunkowo krótkim czasie.",
-  "classTopicsTitle": "Zajęcia obejmują tematy takie jak:",
-  "classTopics": ["Mówienie po angielsku", "Czytanie po angielsku", "Pisanie po angielsku"],
-  "speakingBarrier": "Wiele osób, mimo dobrych umiejętności językowych, boi się komunikować w obcym języku. Dzięki licznym rozmowom prowadzonym podczas zajęć można szybko przełamać tę barierę.",
-  "trainingTitle": "W ramach naszej oferty nauczania języka angielskiego przygotowaliśmy:",
-  "trainings": [
-    "Szkolenia językowe z angielskiego",
-    "Kursy języka angielskiego dla początkujących",
-    "Zaawansowane kursy języka angielskiego",
-    "Wakacyjne kursy językowe",
-    "Korepetycje z języka angielskiego",
-    "Przygotowanie do egzaminu ósmoklasisty i maturalnego z języka angielskiego",
-    "Kursy języka biznesowego"
+  "description": "Angielski dla każdego – w Twoim tempie i na Twoim poziomie! Nauka staje się przyjemnością, a efekty widoczne szybko.",
+  "skills": [
+    {
+      "icon": "💬",
+      "title": "Mówienie",
+      "text": "Przełam barierę i swobodnie rozmawiaj po angielsku."
+    },
+    {
+      "icon": "📖",
+      "title": "Czytanie",
+      "text": "Ucz się z ciekawych tekstów dopasowanych do Twojego poziomu."
+    },
+    {
+      "icon": "✍️",
+      "title": "Pisanie",
+      "text": "Opanuj poprawną i płynną komunikację w piśmie."
+    }
   ],
-  "businessCourses": "Na naszych kursach języka biznesowego szczególny nacisk kładziemy na naukę słownictwa przydatnego w danej branży.",
-  "contactInfo": "W przypadku pytań dotyczących naszych usług prosimy o kontakt telefoniczny lub mailowy.",
-  "printContract": "Wydrukuj umowę",
-  "learnMore": "Dowiedz się więcej o tym kursie, kontaktując się z nami.",
   "courses": [
-    "Kursy angielskiego",
-    "Przygotowanie do egzaminów",
-    "Angielski biznesowy",
-    "Kursy wakacyjne"
-  ]
+    {
+      "icon": "🌱",
+      "title": "Dla początkujących",
+      "text": "Startuj od podstaw",
+      "color": "bg-cyan-100"
+    },
+    {
+      "icon": "🚀",
+      "title": "Zaawansowane",
+      "text": "Rozwijaj swoje umiejętności",
+      "color": "bg-amber-100"
+    },
+    {
+      "icon": "📝",
+      "title": "Egzaminy",
+      "text": "Przygotowanie do ósmoklasisty i matury",
+      "color": "bg-green-100"
+    },
+    {
+      "icon": "☀️",
+      "title": "Wakacyjne kursy",
+      "text": "Nauka i zabawa latem",
+      "color": "bg-pink-100"
+    },
+    {
+      "icon": "💼",
+      "title": "Język biznesowy",
+      "text": "Praktyczne słownictwo dla Twojej branży",
+      "color": "bg-purple-100"
+    },
+    {
+      "icon": "👩‍🏫",
+      "title": "Korepetycje",
+      "text": "Nauka dopasowana do Twoich potrzeb",
+      "color": "bg-orange-100"
+    }
+  ],
+  "whyUsTitle": "💡 Dlaczego warto u nas?",
+  "whyUsPoints": [
+    "✔ Metody dopasowane do Twojego stylu nauki",
+    "✔ Szybkie efekty i realne postępy",
+    "✔ Przyjazna, motywująca atmosfera"
+  ],
+  "contact": "📞 Skontaktuj się z nami i wybierz idealny kurs dla siebie!"
 }
+
 ,
   "gallery": {
     "title": "Galeria",
@@ -95,7 +172,7 @@
 "contact": {
   "title": "Kontakt",
   "text": "Skontaktuj się z nami telefonicznie lub mailowo, aby uzyskać więcej informacji.",
-  "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+  "address": "EKO Kamionki, ul. Poznańska 117, 62-023 Kamionki",
   "phone": "+48 883 422 005",
   "email": "info@easylearninglanguage.com",
   "hours": "Pon–Pt: 9:00 – 18:00",

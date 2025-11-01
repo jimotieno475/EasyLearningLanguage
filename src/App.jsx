@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Application from './pages/Application'
 import en from './locales/en.json'
 import pl from './locales/pl.json'
+import Signup from './pages/Signup'
 
 export const LangContext = React.createContext()
 
@@ -25,11 +26,13 @@ export default function App() {
           <main className='flex-1'>
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/signup' element={<Signup/>}/>
               <Route path='/about' element={<About />} />
               <Route path='/offer' element={<Offer />} />
               <Route path='/gallery' element={<Gallery />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/application' element={<Application />} />
+
             </Routes>
           </main>
           <Footer />

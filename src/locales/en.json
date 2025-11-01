@@ -7,8 +7,9 @@
     "contact": "Contact"
   },
 "home": {
-  "title": "Welcome to Easy Learning Language",
-  "subtitle": "Learn languages easily and effectively.",
+  "title": "Welcome to Easy Learning Language in Kamionki",
+  "subtitle": "A school where you learn English with a native speaker. ",
+  "subsubtitle":"Professionally, individually, and with visible results.",
   "infoTitle": "Learn English with Easy Learning Language",
   "infoText": "English is widely recognized as an international language used by people around the world. Knowledge of English allows for communication in almost every corner of the globe and is often required in a wide variety of jobs. At Easy Learning Language, each student receives individualized attention, allowing for faster progress. Classes are filled with exercises in reading, listening, and writing, allowing students to quickly master both spoken and written English. During classes, numerous conversations in English are also held, allowing students to familiarize themselves with pronunciation and overcome the speaking barrier. We guarantee attractive course prices.",
   "courses": [
@@ -50,40 +51,115 @@
     "enroll": "Sign up",
     "readMore": "Contact"
   },
-  "about": {
+"about": {
     "title": "About Us",
-    "text": "We are a language school offering friendly, modern, and effective teaching methods for students of all ages. Our teacher, Beatrice Ajwang, focuses on individual progress and uses up-to-date teaching techniques.",
-    "extended": "Easy Learning Language, a foreign language school run by Beatrice Ajwang, is located in Kamionki, near Poznań. Our focus is on teaching English to students of all ages and at various levels. We offer classes from A1 to very advanced levels. Our extensive experience and high qualifications allow us to guarantee the highest quality of teaching, and our individual approach to each student allows us to maximize learning outcomes. We continually improve our skills by participating in courses and workshops. We strive to ensure that every student receives the exact knowledge they need."
+    "intro": "EASY Learning Language – Your Language School in Kamionki",
+    "mainText": "Easy Learning Language is a modern language school run by Beatrice Ajwang, located in Kamionki, near Poznań. We teach English to children, teenagers, and adults – from beginner A1 to advanced C1 levels.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Our mission is to create a friendly, inspiring atmosphere where learning becomes a pleasure and results are quickly visible. We focus on individual approach, modern teaching methods, and direct contact with a native speaker, which sets us apart from other schools. Thanks to this, our students develop natural language fluency and confidence in communication."
+    },
+    "guarantee": "Thanks to our passion, experience, and commitment, we guarantee learning at the highest level – tailored to each student's needs.",
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Individual Approach",
+        "text": "We adapt teaching methods to each student's needs and learning style"
+      },
+      {
+        "icon": "👩‍🏫",
+        "title": "Native Speaker",
+        "text": "Direct contact with an experienced native speaker"
+      },
+      {
+        "icon": "📈",
+        "title": "Quick Results",
+        "text": "Visible progress in a short time thanks to effective methods"
+      },
+      {
+        "icon": "🏆",
+        "title": "Experience",
+        "text": "High qualifications and continuous professional development"
+      }
+    ],
+    "whatMakesUsSpecial": "What makes us special?",
+    "signUpButton": "Sign up for a lesson",
+    "levels": {
+      "title": "Teaching Levels",
+      "items": ["Children (from 3 years)", "Teenagers", "Adults", "Levels A1-C1", "Conversation", "Exam preparation"]
+    },
+    "cta": {
+      "title": "Start Your English Adventure!",
+      "text": "Sign up for your first lesson and discover how effectively you can learn English."
+    }
   },
   "offer": {
   "title": "Our Offer",
-  "description": "Courses adapted to different ages and levels.",
-  "detailedText1": "Knowledge of English is very useful these days. English is an international language, allowing communication in almost every corner of the planet. It is increasingly required in various professions, as international business communication is conducted in English.",
-  "detailedText2": "At Easy Learning Language, we tailor our teaching methods to the learners' predispositions, ensuring that students achieve excellent learning results in a relatively short time.",
-  "classTopicsTitle": "Classes cover topics such as:",
-  "classTopics": ["Speaking in English", "Reading in English", "Writing in English"],
-  "speakingBarrier": "Many people, despite their good language skills, are afraid to communicate in a foreign language. Thanks to the numerous conversations held during classes, it's possible to quickly overcome this barrier.",
-  "trainingTitle": "As part of our English language teaching offer, we have prepared:",
-  "trainings": [
-    "English language training",
-    "English courses for beginners",
-    "Advanced English courses",
-    "Summer language courses",
-    "English tutoring",
-    "Preparation for the eighth-grade and secondary school leaving examinations in English",
-    "Business language courses"
+  "description": "English for everyone – at your pace and at your level! Learning becomes a pleasure, and the results come quickly.",
+  "skills": [
+    {
+      "icon": "💬",
+      "title": "Speaking",
+      "text": "Break the barrier and speak English with confidence."
+    },
+    {
+      "icon": "📖",
+      "title": "Reading",
+      "text": "Learn from interesting texts tailored to your level."
+    },
+    {
+      "icon": "✍️",
+      "title": "Writing",
+      "text": "Master clear and fluent written communication."
+    }
   ],
-  "businessCourses": "In our business language courses, we place particular emphasis on learning vocabulary relevant to your specific industry.",
-  "contactInfo": "If you have any questions about our services, please contact us by phone or email.",
-  "printContract": "Print the contract",
-  "learnMore": "Learn more about this course by contacting us.",
   "courses": [
-    "English Courses",
-    "Exam Preparation",
-    "Business English",
-    "Holiday Courses"
-  ]
+    {
+      "icon": "🌱",
+      "title": "For Beginners",
+      "text": "Start from the basics",
+      "color": "bg-cyan-100"
+    },
+    {
+      "icon": "🚀",
+      "title": "Advanced",
+      "text": "Develop your skills further",
+      "color": "bg-amber-100"
+    },
+    {
+      "icon": "📝",
+      "title": "Exams",
+      "text": "Preparation for 8th-grade and high school exams",
+      "color": "bg-green-100"
+    },
+    {
+      "icon": "☀️",
+      "title": "Summer Courses",
+      "text": "Learn and have fun during summer",
+      "color": "bg-pink-100"
+    },
+    {
+      "icon": "💼",
+      "title": "Business English",
+      "text": "Practical vocabulary for your industry",
+      "color": "bg-purple-100"
+    },
+    {
+      "icon": "👩‍🏫",
+      "title": "Tutoring",
+      "text": "Learning tailored to your needs",
+      "color": "bg-orange-100"
+    }
+  ],
+  "whyUsTitle": "💡 Why Choose Us?",
+  "whyUsPoints": [
+    "✔ Methods adapted to your learning style",
+    "✔ Quick results and real progress",
+    "✔ Friendly, motivating atmosphere"
+  ],
+  "contact": "📞 Contact us and choose the perfect course for you!"
 }
+
 ,
   "gallery": {
     "title": "Gallery",
@@ -92,7 +168,7 @@
 "contact": {
   "title": "Contact Us",
   "text": "Reach out via phone or email for details.",
-  "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+  "address": "EKO Kamionki, ul. Poznańska 117, 62-023 Kamionki",
   "phone": "+48 883 422 005",
   "email": "info@easylearninglanguage.com",
   "hours": "Mon–Fri: 9:00 – 18:00",
@@ -153,7 +229,7 @@
     "contact": {
       "title": "Skontaktuj się z nami",
       "text": "Skontaktuj się telefonicznie lub mailowo, aby uzyskać szczegóły.",
-      "address": "Przy Łowisku 6/1, 62-023 Kamionki",
+      "address": "EKO Kamionki, ul. Poznańska 117, 62-023 Kamionki",
       "phone": "+48 883 422 005",
       "email": "info@easylearninglanguage.com",
       "hours": "Pon–Pt: 9:00 – 18:00",

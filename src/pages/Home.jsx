@@ -1,10 +1,17 @@
 import React, { useContext } from 'react'
+import { useNavigate,Link } from 'react-router-dom'
 import { LangContext } from '../App'
-import Logo from '../assets/logob.png'
-import front from '../assets/front.jpg'
+import Logo from '../assets/logo5.png'
+import front from '../assets/logo1.jpg'
+
 
 export default function Home() {
   const { t } = useContext(LangContext)
+  const navigate=useNavigate()
+
+  const HandleSignup =()=>{
+    navigate('/signup')
+  }
 
   return (
     <>
@@ -19,22 +26,27 @@ export default function Home() {
           <h1 className='text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg'>
             {t.home.title}
           </h1>
-          <p className='text-lg md:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md'>
+          <p className='text-lg md:text-xl mb-2 max-w-2xl mx-auto drop-shadow-md'>
             {t.home.subtitle}
           </p>
+            <p className='text-lg md:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md'>
+            {t.home.subsubtitle}
+          </p>
           <div className='flex justify-center gap-4'>
-            <a
-              href='/offer'
+            <button
+              onClick={HandleSignup}
+              href='/signup'
               className='px-6 py-3 rounded bg-white text-sky-700 font-semibold hover:bg-sky-100 transition'
             >
               {t.cta?.enroll ?? 'Sign up'}
-            </a>
-            <a
-              href='/contact'
+            </button>
+            <button
+              onClick={()=>navigate('/contact')}
+              href=''
               className='px-6 py-3 rounded border border-white text-white font-semibold hover:bg-white hover:text-sky-700 transition'
             >
               {t.cta?.readMore ?? 'Contact'}
-            </a>
+            </button>
           </div>
         </div>
 
@@ -58,18 +70,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Info Section */}
-<section className='bg-white py-20 px-6'>
-  <div className='container mx-auto max-w-4xl text-center'>
-    <h2 className='text-3xl font-bold text-sky-700 mb-6'>
-      {t.home.infoTitle}
-    </h2>
-    <p className='text-gray-700 leading-relaxed text-lg whitespace-pre-line'>
-      {t.home.infoText}
-    </p>
-  </div>
-</section>
-
 {/* Courses Section */}
 <section className='bg-blue-50 py-20 px-6'>
   <div className='container mx-auto max-w-6xl'>
@@ -87,12 +87,22 @@ export default function Home() {
             <h3 className='text-xl font-semibold text-sky-700 mb-3'>{course.title}</h3>
             <p className='text-gray-700 mb-4'>{course.text}</p>
           </div>
-          <a
-            href={course.title === 'Kontakt' || course.title === 'Contact' ? '/contact' : '/offer'}
-            className='inline-block mt-auto text-sky-600 font-semibold hover:underline'
-          >
-            {course.cta}
-          </a>
+          <div className="mt-auto flex justify-between items-center pt-4">
+            <Link
+              to={course.title === 'Kontakt' || course.title === 'Contact' ? '/contact' : '/offer'}
+              className="text-sky-600 font-semibold hover:underline"
+            >
+              {course.cta}
+            </Link>
+          
+            <button
+              onClick={() => navigate('/signup')}
+              className="text-sky-700 font-semibold hover:underline"
+            >
+              {t.cta?.enroll ?? 'Sign up'}
+            </button>
+          </div>
+          
         </div>
       ))}
     </div>

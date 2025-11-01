@@ -1,77 +1,73 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { LangContext } from '../App'
-import docs from '../assets/UMOWA-Easy-L-L.pdf'
 
 export default function Offer() {
   const { t } = useContext(LangContext)
   const navigate = useNavigate()
 
   const handleCourseClick = () => {
-    navigate('/application')
+    navigate('/signup')
   }
 
   return (
-    <section className='max-w-5xl mx-auto py-16 px-4'>
-      <h2 className='text-3xl font-bold text-sky-700 mb-4'>
-        {t.offer.title}
-      </h2>
-      <p className='mb-6 text-gray-700'>
-        {t.offer.description ?? ''}
-      </p>
-
-      {/* --- Detailed Description Section --- */}
-      <div className='text-gray-700 leading-relaxed mb-10'>
-        <p className='mb-4'>{t.offer.detailedText1}</p>
-        <p className='mb-4'>{t.offer.detailedText2}</p>
-
-        <h3 className='text-xl font-semibold mt-6 mb-2'>
-          {t.offer.classTopicsTitle}
-        </h3>
-        <ul className='list-disc ml-6 mb-4'>
-          {t.offer.classTopics.map((topic, i) => (
-            <li key={i}>{topic}</li>
-          ))}
-        </ul>
-
-        <p className='mb-4'>{t.offer.speakingBarrier}</p>
-
-        <h3 className='text-xl font-semibold mt-6 mb-2'>
-          {t.offer.trainingTitle}
-        </h3>
-        <ul className='list-disc ml-6 mb-4'>
-          {t.offer.trainings.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
-
-        <p className='mb-6'>{t.offer.businessCourses}</p>
-        <p className='mb-6'>{t.offer.contactInfo}</p>
-
-        <a
-          href={docs}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='inline-block mt-4 px-6 py-3 bg-sky-700 text-white font-semibold rounded hover:bg-sky-800 transition'
-        >
-          {t.offer.printContract}
-        </a>
+    <section className="offer-section font-sans py-16 bg-gray-50">
+      {/* Header */}
+      <div className="text-center mb-12 px-4">
+        <h2 className="text-4xl font-bold text-sky-700 mb-4">
+          {t.offer.title}
+        </h2>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          {t.offer.description}
+        </p>
       </div>
 
-      {/* --- Grid of Courses --- */}
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-        {t.offer.courses.map((c, i) => (
-          <article
-            key={i}
-            onClick={handleCourseClick}
-            className='p-4 rounded shadow-sm bg-white cursor-pointer hover:shadow-md hover:bg-sky-50 transition'
+      {/* Skills Section */}
+      <div className="skills flex flex-wrap justify-center gap-6 mb-16 px-4">
+        {t.offer.skills.map((skill, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-xl shadow-md p-6 w-64 text-center hover:shadow-lg transition-shadow"
           >
-            <h3 className='font-semibold mb-2 text-sky-700'>{c}</h3>
-            <p className='text-sm text-gray-600'>
-              {t.offer.learnMore}
-            </p>
-          </article>
+            <div className="text-5xl mb-3">{skill.icon}</div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              {skill.title}
+            </h3>
+            <p className="text-gray-600">{skill.text}</p>
+          </div>
         ))}
+      </div>
+
+      {/* Courses Section */}
+      <div className="courses flex flex-wrap justify-center gap-6 mb-16 px-4">
+        {t.offer.courses.map((course, index) => (
+          <div
+            key={index}
+            onClick={handleCourseClick}
+            className={`${course.color} rounded-xl p-6 w-56 text-center hover:shadow-md transition-shadow cursor-pointer hover:scale-105 transform transition-all duration-200`}
+          >
+            <div className="text-4xl mb-2">{course.icon}</div>
+            <h3 className="text-lg font-semibold text-gray-800 mb-1">
+              {course.title}
+            </h3>
+            <p className="text-gray-600">{course.text}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Why Us Section */}
+      <div className="why-us text-center px-4">
+        <h3 className="text-2xl font-bold text-gray-800 mb-6">
+          {t.offer.whyUsTitle}
+        </h3>
+        <ul className="list-none text-gray-700 text-lg space-y-2">
+          {t.offer.whyUsPoints.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
+        <p className="mt-6 text-lg text-gray-700">
+          {t.offer.contact}
+        </p>
       </div>
     </section>
   )
