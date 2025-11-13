@@ -163,7 +163,9 @@
 ,
   "gallery": {
     "title": "Gallery",
-    "text": "Explore moments from our classes and events."
+    "text": "Explore moments from our classes and events.",
+    "b1":"All Photos",
+    "b2":"All Videos"
   },
 "contact": {
   "title": "Contact Us",

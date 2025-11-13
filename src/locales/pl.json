@@ -167,7 +167,9 @@
 ,
   "gallery": {
     "title": "Galeria",
-    "text": "Zobacz chwile z naszych zajęć i wydarzeń."
+    "text": "Zobacz chwile z naszych zajęć i wydarzeń.",
+    "b1":" Wszystkie Zdjęcia",
+    "b2":" Wszystkie Filmy"
   },
 "contact": {
   "title": "Kontakt",

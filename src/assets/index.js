@@ -14,6 +14,8 @@ import img13 from './13.jpg'
 import img14 from './14.jpg'
 import img15 from './15.jpg'
 
+import vid1 from './v1.mp4'
+
 const images = {
   img1,
   img2,
@@ -32,4 +34,8 @@ const images = {
   img15
 }
 
-export default images
+const Videos = {
+  vid1
+}
+
+export { images, Videos }  
