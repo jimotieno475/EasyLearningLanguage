@@ -3,6 +3,7 @@ import { useNavigate,Link } from 'react-router-dom'
 import { LangContext } from '../App'
 import Logo from '../assets/logo5.png'
 import front from '../assets/logo1.jpg'
+import pic from '../assets/easypic.jpeg'
 
 
 export default function Home() {
@@ -58,17 +59,27 @@ export default function Home() {
         />
       </section>
 
-      {/* Info Section */}
-      <section className='bg-white py-20 px-6'>
-        <div className='container mx-auto max-w-4xl text-center'>
-          <h2 className='text-3xl font-bold text-sky-700 mb-6'>
-            {t.home.infoTitle}
-          </h2>
-          <p className='text-gray-700 leading-relaxed text-lg whitespace-pre-line'>
-            {t.home.infoText}
-          </p>
-        </div>
-      </section>
+{/* Info Section */}
+<section className='bg-white py-20 px-6'>
+  <div className='container mx-auto max-w-6xl grid md:grid-cols-3 gap-10 items-center'>
+    <div className='md:col-span-2 text-left'>
+      <h2 className='text-3xl font-bold text-sky-700 mb-6'>
+        {t.home.infoTitle}
+      </h2>
+      <p className='text-gray-700 leading-relaxed text-lg whitespace-pre-line'>
+        {t.home.infoText}
+      </p>
+    </div>
+
+    <div className='md:col-span-1 w-full h-80 md:h-[28rem]'>
+      <img
+        src={pic}
+        alt='Easy Learning'
+        className='w-full h-full object-cover rounded-2xl shadow-lg'
+      />
+    </div>
+  </div>
+</section>
 
 {/* Courses Section */}
 <section className='bg-blue-50 py-20 px-6'>
